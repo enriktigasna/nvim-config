@@ -6,7 +6,9 @@ return {
 
         local import_luasnip, luasnip = pcall(require, 'luasnip')
         if not import_luasnip then return end
-
+        
+        require("luasnip.loaders.from_snipmate").lazy_load { paths = vim.fn.stdpath "config" .. "/snippets" }
+        
         cmp.setup({
             snippet = {
                 expand = function (args)
