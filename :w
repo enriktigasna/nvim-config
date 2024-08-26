@@ -1,0 +1,33 @@
+
+   lazy.nvim (H)   Install (I)   Update (U)   Sync (S)   Clean (X)   Check (C)   Log (L)   Restore (R)   Profile (P)  
+   Debug (D)   Help (?) 
+
+  Total: 20 plugins
+
+  Installed (1)
+    ○ tailwind-sorter.nvim 
+
+  Clean (1)
+    ○ cinnamon.nvim 
+
+  Loaded (1)
+    ● lazy.nvim
+
+  Not Loaded (17)
+    ○ cmp-nvim-lsp  lsp-zero.nvim 
+    ○ github-nvim-theme 
+    ○ lsp-zero.nvim 
+    ○ lualine.nvim 
+    ○ LuaSnip  lsp-zero.nvim 
+    ○ mason-lspconfig.nvim  lsp-zero.nvim 
+    ○ mason.nvim  lsp-zero.nvim 
+    ○ mini.hipatterns 
+    ○ nvim-cmp 
+    ○ nvim-lspconfig  lsp-zero.nvim 
+    ○ nvim-treesitter  tailwind-tools.nvim  tailwind-sorter.nvim 
+    ○ nvim-web-devicons  oil.nvim  lualine.nvim 
+    ○ oil.nvim 
+    ○ plenary.nvim  tailwind-sorter.nvim  telescope.nvim 
+    ○ tailwind-tools.nvim 
+    ○ telescope.nvim 
+    ○ vimtex 

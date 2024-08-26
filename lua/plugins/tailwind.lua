@@ -1,5 +1,7 @@
 return {
   "luckasRanarison/tailwind-tools.nvim",
   dependencies = { "nvim-treesitter/nvim-treesitter" },
-  opts = {} -- your configuration
+  opts = {
+        vim.keymap.set("n", "<leader>tt", vim.cmd.TailwindSort);
+    } -- your configuration
 }
